@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="example.css">
+<head>
+    <title>LOgin</title>
+</head>
+<body>
+<h1>I.E 20986  SAN MARTIN DE PORRES</h1>
+
+    <label for="texto">ESCRIBA SU USUARIO:</label>
+    <input  type="text" id="texto" name="texto">
+    <button onclick="verificarTexto()">INGRESAR</button>
+
+    <script>
+        function verificarTexto() {
+            var textoIngresado = document.getElementById("texto").value;
+            if (textoIngresado === "OAquiles") {
+                window.location.href = "OAQUILES/OAQUILES.html";
+            }
+        }
+    </script>
+
+</body>
+</html>
